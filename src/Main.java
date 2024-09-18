@@ -9,7 +9,7 @@ public class Main {
 
             System.out.println("Установите версию приложения для iOS по ссылке");
 
-        } else if (clientOS == 1)
+        } else
             System.out.println("Установите версию приложения для Andrioid по ссылке");
 
 
@@ -81,8 +81,8 @@ public class Main {
                 System.out.println("Осень");
                 break;
             default:
-                System.out.println("Такого месяца не существует");}
-
+                System.out.println("Такого месяца не существует");
+        }
 
 
     }
