@@ -4,27 +4,20 @@ public class Main {
 
         // Задание 1
         int clientOS = 1; // IOS 0 | Android 1
-
         if (clientOS == 0) {
-
             System.out.println("Установите версию приложения для iOS по ссылке");
-
-        } else
-            System.out.println("Установите версию приложения для Andrioid по ссылке");
+        } else System.out.println("Установите версию приложения для Andrioid по ссылке");
 
 
 // Задание 2
 
 
         int clientDeviceYear = 2024;
-
-
         if (clientOS == 0 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
         } else if (clientOS == 0 && clientDeviceYear >= 2015) {
             System.out.println("Установите обычную версию приложения для iOS по ссылке");
         }
-
         if (clientOS == 1 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         } else if (clientOS == 1 && clientDeviceYear >= 2015) {
@@ -45,10 +38,7 @@ public class Main {
 
 
         int deliveryDistance = 95;
-
-        if (deliveryDistance < 20)
-            System.out.println("На дсотавку потребуется 1 день");
-
+        if (deliveryDistance < 20) System.out.println("На дсотавку потребуется 1 день");
         else if (deliveryDistance <= 60) {
             System.out.println("На доставку потребуется 2 дня");
         } else if (deliveryDistance <= 100) {
@@ -58,7 +48,6 @@ public class Main {
 // Задание 5
 
         int monthNumber = 13;
-
         switch (monthNumber) {
             case 12:
             case 1:
