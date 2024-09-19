@@ -43,12 +43,12 @@ public class Main {
         // Задание 4
         System.out.println("Задание 4");
 
-        int deliveryDistance = 95;
-        if (deliveryDistance < 20) {
-            System.out.println("На дсотавку потребуется 1 день");
-        } else if (deliveryDistance <= 60) {
+        int deliveryDistance = -1;
+        if (deliveryDistance >= 0 && deliveryDistance <= 20) {
+            System.out.println("На доcтавку потребуется 1 день");
+        } else if (deliveryDistance > 20 && deliveryDistance < 60) {
             System.out.println("На доставку потребуется 2 дня");
-        } else if (deliveryDistance <= 100) {
+        } else if (deliveryDistance >=60 && deliveryDistance <= 100) {
             System.out.println("На доставку потребуется 3 дня");
         } else {
             System.out.println("Нет доставки");
